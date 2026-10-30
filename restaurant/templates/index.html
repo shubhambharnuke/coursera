@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Lemon</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Little Lemon</h1>
+    <p>Chicago &middot; Mediterranean family restaurant</p>
+  </header>
+  <main>
+    <section>
+      <h2>About us</h2>
+      <p>Little Lemon serves traditional Mediterranean recipes with a modern twist, in a warm family atmosphere.</p>
+    </section>
+    <section>
+      <h2>Explore the API</h2>
+      <ul>
+        <li><a href="/api/menu/">Menu</a></li>
+        <li><a href="/api/bookings/">Table bookings</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>&copy; Little Lemon</footer>
+</body>
+</html>
